@@ -29,8 +29,13 @@ function App() {
     <div className={thala === 1 ? "thala" : thala === 2 ? "gambhir" : "App"}>
       <div className="nav">
 
+        <div style={{display:"flex"}}>
         <h1 className="head">Are you in this world, because of Thala?</h1>
+        <p>made by @alokkumax</p>
 
+        </div>
+
+       
         <div>
           <input
             onChange={(e) => {
