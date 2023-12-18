@@ -16,7 +16,7 @@ function App() {
   }
   const checkThala = () => {
     console.log(input);
-    if(input.length === 7 || input.length === 14){
+    if(input.length === 7 || input.length === 14 || input === 7){
       setThala(1);
       makeSound();
 
